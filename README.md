@@ -1,6 +1,10 @@
+<span style="text-align: center;">
+
 ![](https://img.shields.io/badge/Django-103127?logo=django&amp;logoColor=ffffff)
 ![](https://img.shields.io/badge/Python-646464?logo=python)
 ![](https://img.shields.io/badge/HTML-646464?logo=html5)
+
+</span>
 
 # 🍋 Little Lemon Restaurant - Proyecto Django
 

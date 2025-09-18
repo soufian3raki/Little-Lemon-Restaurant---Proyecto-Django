@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Acerca de - Little Lemon{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h1>Acerca de Little Lemon</h1>
+    
+    <h2>Nuestra Historia</h2>
+    <p>Fundado en 1995 por la familia Rodriguez, Little Lemon comenzó como un pequeño restaurante familiar en el corazón de la ciudad. Nuestra pasión por la cocina mediterránea y el deseo de compartir estos sabores auténticos con nuestra comunidad nos llevó a crear este espacio especial.</p>
+    
+    <h2>Nuestra Filosofía</h2>
+    <p>Creemos que la buena comida une a las personas. Por eso, nos esforzamos por ofrecer platos que no solo satisfagan el paladar, sino que también creen momentos memorables alrededor de la mesa.</p>
+    
+    <h2>Nuestro Compromiso</h2>
+    <ul>
+        <li><strong>Calidad:</strong> Utilizamos solo los ingredientes más frescos y de la más alta calidad</li>
+        <li><strong>Autenticidad:</strong> Nuestras recetas son tradicionales, transmitidas de generación en generación</li>
+        <li><strong>Servicio:</strong> Tratamos a cada cliente como parte de nuestra familia</li>
+        <li><strong>Comunidad:</strong> Apoyamos a los productores locales y contribuimos al desarrollo de nuestra comunidad</li>
+    </ul>
+    
+    <h2>Horarios de Atención</h2>
+    <p><strong>Lunes a Jueves:</strong> 11:00 AM - 10:00 PM</p>
+    <p><strong>Viernes y Sábados:</strong> 11:00 AM - 11:00 PM</p>
+    <p><strong>Domingos:</strong> 12:00 PM - 9:00 PM</p>
+    
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Calle Principal 123, Centro de la Ciudad</p>
+    <p><strong>Teléfono:</strong> (555) 123-4567</p>
+    <p><strong>Email:</strong> info@littlelemon.com</p>
+    
+    <p style="text-align: center; margin-top: 2rem;">
+        <a href="{% url 'book' %}" class="btn">Hacer una Reserva</a>
+    </p>
+</div>
+{% endblock %}

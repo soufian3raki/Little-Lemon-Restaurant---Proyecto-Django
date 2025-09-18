@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Little Lemon{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h1>Bienvenido a Little Lemon</h1>
+    <p>Descubre los sabores auténticos de la cocina mediterránea</p>
+    <a href="{% url 'menu' %}" class="btn">Ver Menú</a>
+</div>
+
+<div class="content">
+    <h2>Nuestra Historia</h2>
+    <p>Little Lemon es un restaurante familiar que se especializa en platos mediterráneos tradicionales. Desde 1995, hemos estado sirviendo comida deliciosa y auténtica a nuestra comunidad local.</p>
+    
+    <h2>¿Por qué elegirnos?</h2>
+    <ul>
+        <li>Ingredientes frescos y locales</li>
+        <li>Recetas tradicionales transmitidas por generaciones</li>
+        <li>Ambiente acogedor y familiar</li>
+        <li>Precios accesibles</li>
+    </ul>
+    
+    <p style="text-align: center; margin-top: 2rem;">
+        <a href="{% url 'menu' %}" class="btn">Explorar Nuestro Menú</a>
+    </p>
+</div>
+{% endblock %}

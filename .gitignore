@@ -1,6 +1,6 @@
 # Carpetas específicas del proyecto
 littlelemon_1/
-LittleLemon/
+LittleLemon_0/
 
 # Archivos de base de datos
 *.sqlite3

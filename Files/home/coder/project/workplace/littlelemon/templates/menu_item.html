@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ menu_item.name }} - Little Lemon{% endblock %}
+
+{% block content %}
+<div class="single-item">
+    {% if menu_item.image %}
+        <img src="{{ menu_item.image.url }}" alt="{{ menu_item.name }}">
+    {% endif %}
+    
+    <h1>{{ menu_item.name }}</h1>
+    <div class="price">${{ menu_item.price }}</div>
+    <div class="description">{{ menu_item.description }}</div>
+    
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="{% url 'menu' %}" class="btn">Volver al Menú</a>
+        <a href="{% url 'book' %}" class="btn">Hacer una Reserva</a>
+    </div>
+</div>
+{% endblock %}

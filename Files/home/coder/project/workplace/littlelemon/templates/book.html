@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Reservar - Little Lemon{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h1>Hacer una Reserva</h1>
+    <p>Reserva tu mesa en Little Lemon y disfruta de una experiencia culinaria inolvidable.</p>
+    
+    <div style="max-width: 600px; margin: 0 auto;">
+        <h2>Información de Contacto</h2>
+        <p><strong>Teléfono:</strong> (555) 123-4567</p>
+        <p><strong>Email:</strong> reservas@littlelemon.com</p>
+        <p><strong>Dirección:</strong> Calle Principal 123, Centro de la Ciudad</p>
+        
+        <h2>Horarios de Atención</h2>
+        <p><strong>Lunes a Jueves:</strong> 11:00 AM - 10:00 PM</p>
+        <p><strong>Viernes y Sábados:</strong> 11:00 AM - 11:00 PM</p>
+        <p><strong>Domingos:</strong> 12:00 PM - 9:00 PM</p>
+        
+        <h2>Política de Reservas</h2>
+        <ul>
+            <li>Las reservas se pueden hacer hasta 30 días de anticipación</li>
+            <li>Para grupos de 8 o más personas, se requiere reserva con 48 horas de anticipación</li>
+            <li>Las reservas se mantienen por 15 minutos después de la hora programada</li>
+            <li>Cancelaciones deben hacerse con al menos 2 horas de anticipación</li>
+        </ul>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="{% url 'menu' %}" class="btn">Ver Menú</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
